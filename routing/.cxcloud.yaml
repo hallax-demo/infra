@@ -1,0 +1,16 @@
+routing:
+  domain: cxcloud.hallavo.com
+  ssl: true
+  rules:
+    - path: /api/service-commerce
+      serviceName: service-commerce
+      servicePort: 4003
+    - path: /api/service-content
+      serviceName: service-content
+      servicePort: 4003
+    - path: /api/service-search
+      serviceName: service-search
+      servicePort: 4003
+    - path: /
+      serviceName: frontend
+      servicePort: 80
