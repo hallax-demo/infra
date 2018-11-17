@@ -11,6 +11,9 @@ routing:
     - path: /api/service-search
       serviceName: service-search
       servicePort: 4003
+    - path: /api/service-auth
+      serviceName: service-auth
+      servicePort: 4003
     - path: /
       serviceName: frontend
       servicePort: 80
